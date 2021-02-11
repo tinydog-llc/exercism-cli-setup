@@ -7,3 +7,9 @@ This *should* install Exercism CLI on any Linux system. However, this has been s
 Run the following command:
 
 `bash -c "$(curl -s https://raw.githubusercontent.com/tinydog-llc/exercism-cli-setup/main/install.sh)"`
+
+Once it has been installed you will need to configure it by running the following command:
+
+`exercism configure --token=PLACE_YOUR_TOKEN_HERE`
+
+You can find your token on the Exercism [Settings](https://exercism.io/my/settings) page.
